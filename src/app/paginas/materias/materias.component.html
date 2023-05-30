@@ -1,0 +1,16 @@
+<div class="container">
+    <mat-card *ngFor="let materia of materias" class="materia-card">
+        <mat-card-header>
+          <mat-card-title>{{materia.nombre}}</mat-card-title>
+          <mat-card-subtitle>{{materia.sigla}}</mat-card-subtitle>
+        </mat-card-header>
+        <img class="card-img" mat-card-image src="https://media.admagazine.com/photos/618a62ad259e475000cce98f/master/w_1600%2Cc_limit/82162.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+          <p>{{materia.descripcion}}</p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button (click)="navigate(materia.id)" mat-button>Notas</button>
+          <button (click)="navigatetoinscritos(materia.sigla, materia.nombre)" mat-button>Inscritos</button>
+        </mat-card-actions>
+      </mat-card>
+</div>

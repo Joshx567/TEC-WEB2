@@ -1,0 +1,18 @@
+
+    [{
+      "id": 5,
+      "sigla":"MAT 211",
+      "nombre":"Calculo 1",
+      "descripcion":"Grafica de funciones, limites y continuidad y derivadas"},
+      {
+        "id": 6,
+        "sigla":"LEN 133",
+        "nombre":"Lenguaje 3",
+        "descripcion":"Lenguaje avanzado como formulacion en tiempo pasado"
+      },
+      {
+        "id": 7,
+        "sigla":"COMP 421",
+        "nombre":"Computacion 1",
+        "descripcion":"C++, Java y pascal conceptos basicos"
+      }]
